@@ -1,0 +1,91 @@
+html {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+body {
+  width: 100%;
+  display: table-cell;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  position: relative;
+  background-color: rgb(26, 26, 26);
+  width: 100%;
+  height: auto;
+}
+
+.bg-opacity {
+  background: rgba(0, 0, 0, 0.6);
+}
+.page-container,::after{
+  box-sizing:unset !important;
+  overflow: hidden;
+}
+
+.mainpage-panel{
+    position: relative;
+    min-height: 40em;
+}
+.heading-panel {
+  background-attachment: local;
+  background-image: url("../img/pexels-jakub-novacek-924824.jpg");
+  background-size:cover;
+  min-height: 45em;
+}
+
+.content-panel{
+  background-attachment:fixed;
+  background-image: url("../img/pexels-felix-mittermeier-1329917.jpg");
+  background-size:cover;
+}
+
+#page-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.text-container{
+    margin:3em;
+}
+
+div.row {
+  border: 0px solid;
+  border-color: darkgray;
+  border-radius: 3px;
+  border-bottom: 0px;
+}
+
+.footer-panel {
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  background-color: black;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+.navbar-toggler {
+  margin-left: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
+}
